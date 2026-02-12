@@ -1,4 +1,8 @@
-# ao-currency-pro
+<p align="center">
+  <img src="assets/logo.png" alt="AO Currency Logo" width="200" />
+</p>
+
+# ao_currency
 
 Biblioteca profissional para manipulação de Moeda Angolana (Kwanza).
 

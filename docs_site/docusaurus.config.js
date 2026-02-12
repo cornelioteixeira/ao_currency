@@ -45,7 +45,7 @@ const config = {
         title: 'AO Currency Pro',
         logo: {
           alt: 'AO Currency Pro Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
