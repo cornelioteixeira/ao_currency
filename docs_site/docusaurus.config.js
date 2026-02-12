@@ -1,17 +1,17 @@
 // @ts-check
-import {themes as prismThemes} from 'prism-react-renderer';
- 
+import { themes as prismThemes } from 'prism-react-renderer';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AO Currency Pro',
   tagline: 'Biblioteca profissional para Moeda Angolana (Kwanza)',
   favicon: 'img/favicon.ico',
 
-  url: 'https://cornelio-teixeira.github.io',
-  baseUrl: '/ao-currency-pro/',
+  url: 'https://cornelioteixeira.github.io',
+  baseUrl: '/ao_currency/',
 
-  organizationName: 'cornelio-teixeira',
-  projectName: 'ao-currency-pro',
+  organizationName: 'cornelioteixeira',
+  projectName: 'ao_currency',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/cornelio-teixeira/ao-currency-pro/tree/main/docs_site/',
+          editUrl: 'https://github.com/cornelioteixeira/ao_currency/tree/main/docs_site/',
         },
         blog: false,
         theme: {
@@ -55,7 +55,7 @@ const config = {
             label: 'Documentação',
           },
           {
-            href: 'https://github.com/cornelio-teixeira/ao-currency-pro',
+            href: 'https://github.com/cornelioteixeira/ao_currency',
             label: 'GitHub',
             position: 'right',
           },
@@ -78,7 +78,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/cornelio-teixeira/ao-currency-pro',
+                href: 'https://github.com/cornelioteixeira/ao_currency',
               },
             ],
           },
