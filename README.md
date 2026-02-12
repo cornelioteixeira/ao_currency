@@ -22,6 +22,15 @@ python3 -m ao_currency.cli "Dois milhões de kwanzas" --numero
 pip install ao_currency
 ```
 
+### Instalação Local (Desenvolvimento)
+Se você deseja contribuir ou testar localmente:
+
+```bash
+git clone https://github.com/cornelioteixeira/ao_currency.git
+cd ao_currency
+pip install -e .
+```
+
 ## Como usar
 
 ```python
