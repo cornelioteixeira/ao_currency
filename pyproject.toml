@@ -1,0 +1,37 @@
+[project]
+name = "ao-currency-pro"
+version = "0.1.0"
+description = "Biblioteca profissional para manipulação de Moeda Angolana (Kwanza)"
+authors = [
+    {name = "Cornelio Teixeira", email = "cornelio.teixeira@example.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+dependencies = [
+    "pydantic>=2.0.0",
+    "num2words>=0.5.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/cornelio-teixeira/ao-currency-pro"
+Documentation = "https://cornelio-teixeira.github.io/ao-currency-pro/"
+Repository = "https://github.com/cornelio-teixeira/ao-currency-pro.git"
+Issues = "https://github.com/cornelio-teixeira/ao-currency-pro/issues"
+
+[project.scripts]
+ao-currency = "ao_currency.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["ao_currency*"]
+exclude = ["docs_site*", "tests*", "dist*", "build*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
