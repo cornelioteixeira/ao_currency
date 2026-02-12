@@ -19,7 +19,7 @@ python3 -m ao_currency.cli "Dois milhões de kwanzas" --numero
 
 ## Instalação
 ```bash
-pip install .
+pip install ao_currency
 ```
 
 ## Como usar
