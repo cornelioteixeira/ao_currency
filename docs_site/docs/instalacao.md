@@ -12,10 +12,10 @@ Siga os passos abaixo para instalar e configurar a biblioteca no seu projeto.
 
 ## Usando Pip
 
-Para instalar a versão estável:
+Para instalar a versão de teste (ou quando estiver no PyPI):
 
 ```bash
-pip install ao-currency-pro
+pip install ao_currency
 ```
 
 ## Instalação Local (Desenvolvimento)
@@ -23,8 +23,8 @@ pip install ao-currency-pro
 Se você deseja contribuir ou testar localmente:
 
 ```bash
-git clone https://github.com/cornelio-teixeira/ao-currency-pro.git
-cd ao-currency-pro
+git clone https://github.com/cornelioteixeira/ao_currency.git
+cd ao_currency
 pip install -e .
 ```
 

@@ -1,5 +1,5 @@
 [project]
-name = "ao-currency-pro"
+name = "ao_currency"
 version = "0.1.0"
 description = "Biblioteca profissional para manipulação de Moeda Angolana (Kwanza)"
 authors = [
@@ -20,10 +20,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/cornelio-teixeira/ao-currency-pro"
-Documentation = "https://cornelio-teixeira.github.io/ao-currency-pro/"
-Repository = "https://github.com/cornelio-teixeira/ao-currency-pro.git"
-Issues = "https://github.com/cornelio-teixeira/ao-currency-pro/issues"
+Homepage = "https://github.com/cornelioteixeira/ao_currency"
+Documentation = "https://cornelioteixeira.github.io/ao_currency/"
+Repository = "https://github.com/cornelioteixeira/ao_currency.git"
+Issues = "https://github.com/cornelioteixeira/ao_currency/issues"
 
 [project.scripts]
 ao-currency = "ao_currency.cli:main"
